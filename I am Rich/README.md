@@ -11,6 +11,8 @@
   Color.red <br/>
   .ignoresSafeArea(.all)<br/>
   this ignores all the edges and paints the complete canvas of the screen according to the color desired.<br/>
+  Getting custom background color<br/>
+  Color(red:int/255, green:int/255, blue:int/255)<br/>
 
 - placing a text at a specific position (offset)<br/>
   Text("hi)<br/>
