@@ -1,25 +1,25 @@
 # take away from this project
 
-- when you are not able to align a content properly try to add background color.
-  Text("hi")
-  .background(Color.red)
-  chances are the frame width and height is not properly matched
+- when you are not able to align a content properly try to add background color.<br/>
+  Text("hi")<br/>
+  .background(Color.red)<br/>
+  chances are the frame width and height is not properly matched<br/>
 
 ## concepts learned
 
-- background color
-  Color.red
-  .ignoresSafeArea(.all)
-  this ignores all the edges and paints the complete canvas of the screen according to the color desired.
-
-- placing a text at a specific position (offset)
-  Text("hi)
-  .offset(x,y)
-  this provides a fine control to place a text/image at a specific point in the screen
-
-- Changing custom size of a text/image
-  By default SwiftUI has built-in text sizes such as .title, .largetitle etc.
-  This can sometimes be not enough
-
-  To create your own sizes use
-  .font(.system(size:int))
+- background color<br/>
+  Color.red <br/>
+  .ignoresSafeArea(.all)<br/>
+  this ignores all the edges and paints the complete canvas of the screen according to the color desired.<br/>
+<br/>
+- placing a text at a specific position (offset)<br/>
+  Text("hi)<br/>
+  .offset(x,y)<br/>
+  this provides a fine control to place a text/image at a specific point in the screen<br/>
+<br/>
+- Changing custom size of a text/image<br/>
+  By default SwiftUI has built-in text sizes such as .title, .largetitle etc.<br/>
+  This can sometimes be not enough<br/>
+<br/>
+  To create your own sizes use<br/>
+  .font(.system(size:int))<br/>
