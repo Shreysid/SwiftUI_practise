@@ -14,4 +14,5 @@
   use Image("String").resizable()<br/>
   followed by .frame(width:int, height: int)<br/>
 
-![screenshot](/Users/shreysid/Downloads/I am poor.png)
+
+![I am poor](https://github.com/Shreysid/SwiftUI_practise/assets/85363057/d10fb55a-a6af-4534-885e-b5dccdf5cb7b)
