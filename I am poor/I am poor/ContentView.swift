@@ -19,10 +19,10 @@ struct ContentView: View {
                     .foregroundStyle(Color.white)
                     .font(.title)
                     
-                
                 Text("I Am Poor")
                     .foregroundStyle(Color.white)
                     .font(.largeTitle)
+                
                 Image("coal")
                     .resizable()
                     .frame(width:350, height:300)
